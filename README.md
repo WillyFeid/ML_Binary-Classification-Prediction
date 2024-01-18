@@ -32,32 +32,47 @@ Each model was tested and tuned. The results achieved on the validation set were
 
 ---
 
-1. **Logistic Regression Profit Curve**
-   ![Logistic Regression Profit Curve](/path/to/logistic_regression_profit_curve.png)
+**Logistic Regression Profit Curve**
+   ![Logistic Regression Profit Curve](/path/to/Logit_Threshold.png)
+   <img src="Plot_Images/Logit_Threshold.png" width="700">
 
-2. **Decision Tree Visualization**
-   - Visualization of the decision tree structure.
-   ![Decision Tree Plot](/path/to/decision_tree_plot.png)
+   ---
 
-3. **Neural Network Performance**
-   - The summary plot of the neural network's performance.
-   ![Neural Network Plot](/path/to/neural_network_plot.png)
+**Decision Tree Structure**
+   <img src="Plot_Images/Plot_Tree.png" width="700">
 
-4. **KNN Model Accuracy**
-   - Line plot showing the relationship between the number of neighbors and the model's accuracy.
-   ![KNN Accuracy Plot](/path/to/knn_accuracy_plot.png)
+---
 
-5. **Model Performance Table**
-   - Table summarizing accuracy, precision, recall, and F1 score for all evaluated models.
-   ![Model Performance Table](/path/to/model_performance_table.png)
+**Neural Network Structure**
+   <img src="Plot_Images/Plot_NN-1.png" width="700">
 
-6. **Model Performance Bar Plot**
-   - Bar plot comparing the accuracy, precision, recall, and F1 score of all models.
-   ![Model Performance Bar Plot](/path/to/model_performance_bar_plot.png)
+---
 
-7. **Cost-Benefit Analysis Table**
-   - Table detailing the number of TP, FN, FP, TN, and Profit for each model.
-  
+**KNN Performance Curve**
+   <img src="Plot_Images/K-values-1.png" width="700">
+
+---
+
+**Model Performance Scores**
+
+![Model Performance Table](ML_Scores_Table.png)
+
+---
+
+![Model Performance Bar Plot](Plot-Performance-Scores-1.png)
+
+---
+
+**Cost-Benefit Analysis and Profit**
+
+![Model Profit Table](Profit-Performance-Summary.png)
+
+---
+
+![Model Profit Plot](Plot-Profits-1.png)
+
+
+
 
 ## Competition Results
 The results from the Logistic Regression model on the unseen test data which was submitted to the competition resulted in:
