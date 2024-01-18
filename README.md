@@ -33,51 +33,61 @@ Each model was tested and tuned. The results achieved on the validation set were
 ---
 
 **Logistic Regression Profit Curve**
-   ![Logistic Regression Profit Curve](/path/to/Logit_Threshold.png)
-   <img src="Plot_Images/Logit_Threshold.png" width="700">
 
-   ---
+<img src="Code/Credit-Card_Classifier_files/figure-html/Logit_Threshold.png" width="600">
+
+---
 
 **Decision Tree Structure**
-   <img src="Plot_Images/Plot_Tree.png" width="700">
+   
+<img src="Code/Credit-Card_Classifier_files/figure-html/Plot_Tree.png" width="600">
 
 ---
 
 **Neural Network Structure**
-   <img src="Plot_Images/Plot_NN-1.png" width="700">
+   
+<img src="Code/Credit-Card_Classifier_files/figure-html/Plot_NN-1.png" width="600">
 
 ---
 
 **KNN Performance Curve**
-   <img src="Plot_Images/K-values-1.png" width="700">
+   
+<img src="Code/Credit-Card_Classifier_files/figure-html/K-values-1.png" width="600">
 
 ---
 
 **Model Performance Scores**
 
-![Model Performance Table](ML_Scores_Table.png)
+<img src="Code/Credit-Card_Classifier_files/figure-html/ML_Scores_Table.png" width="1000">
 
 ---
 
-![Model Performance Bar Plot](Plot-Performance-Scores-1.png)
+<img src="Code/Credit-Card_Classifier_files/figure-html/Plot-Performance-Scores-1.png" width="600">
 
 ---
 
 **Cost-Benefit Analysis and Profit**
 
-![Model Profit Table](Profit-Performance-Summary.png)
+<img src="Code/Credit-Card_Classifier_files/figure-html/Profit-Performance-Summary.png" width="650">
 
 ---
 
-![Model Profit Plot](Plot-Profits-1.png)
+<img src="Code/Credit-Card_Classifier_files/figure-html/Plot-Profits-1.png" width="800">
 
-
-
+---
 
 ## Competition Results
+
+The model that was chosen for the competition was Logistic regression. The regression model had the highest recall score which resulted in the highest profit level on the validation set. Thus, the logistic regression model was used on the unseen test data to produce a list of binary classifications that were submitted to the competition.
+
 The results from the Logistic Regression model on the unseen test data which was submitted to the competition resulted in:
-Profit: $697,350
-TN: 9635
-FP: 2800
-FN: 647
-TP: 3199
+
+- Profit: $697,350
+
+- TN: 9635
+
+- FP: 2800
+
+- FN: 647
+
+- TP: 3199
